@@ -1,22 +1,22 @@
-# 🚦 Reconnaissance de Panneaux de Signalisation
+# 🚦 Traffic Sign Recognition
 
-## 🎯 Objectif du Projet :
-Le projet vise à développer un système de reconnaissance de panneaux de signalisation en temps réel à partir d'une webcam. L'objectif principal est de concevoir et d'entraîner un modèle de réseau neuronal convolutionnel (CNN) capable de classifier différents types de panneaux de signalisation. Nous avons récemment ajouté la reconnaissance vocale et la conversion texte-parole à notre application de reconnaissance de panneaux de signalisation. 🗣️➡️📢
+## 🎯 Project Objective:
+The project aims to develop a real-time traffic sign recognition system using a webcam. The main objective is to design and train a convolutional neural network (CNN) model capable of classifying different types of traffic signs. We have recently added voice recognition and text-to-speech conversion to our traffic sign recognition application. 🗣️➡️📢
 
-## ⚙️ Technologies Utilisées :
-- **OpenCV** : Le projet implique l'utilisation d'OpenCV pour la capture et le traitement en temps réel des images de panneaux de signalisation. 🎥
-- **Python** : Python est le langage de programmation principal pour le développement de l'ensemble du projet. 🐍
-- **SpeechRecognition et pyttsx3** : La bibliothèque SpeechRecognition est utilisée pour la reconnaissance vocale, permettant à l'application de comprendre les commandes vocales de l'utilisateur. La bibliothèque pyttsx3 est utilisée pour synthétiser la parole, annonçant le résultat de la classification à l'utilisateur. 🗣️📢
+## ⚙️ Technologies Used:
+- **OpenCV**: The project involves using OpenCV for real-time capture and processing of traffic sign images. 🎥
+- **Python**: Python is the primary programming language for the development of the entire project. 🐍
+- **SpeechRecognition and pyttsx3**: The SpeechRecognition library is used for voice recognition, allowing the application to understand user voice commands. The pyttsx3 library is used for text-to-speech synthesis, announcing the classification result to the user. 🗣️📢
 
-## 🚀 Fonctionnement du Projet :
-- **Entraînement du Modèle** : Un modèle CNN est entraîné à reconnaître différents types de panneaux de signalisation à partir d'un ensemble de données contenant plus de 35 000 images de 43 classes différentes. L'entraînement est réalisé avec TensorFlow et Keras. 🧠
+## 🚀 How the Project Works:
+- **Model Training**: A CNN model is trained to recognize different types of traffic signs using a dataset containing over 35,000 images across 43 different classes. Training is done using TensorFlow and Keras. 🧠
 
-- **Intégration du Modèle dans l'Application** : Le modèle pré-entraîné est intégré dans l'application développée en utilisant OpenCV. L'application capture des images en temps réel à partir de la webcam. 📸
+- **Model Integration into the Application**: The pre-trained model is integrated into the application developed using OpenCV. The application captures real-time images from the webcam. 📸
 
-- **Prétraitement des Images** : Chaque image capturée est soumise à un processus de prétraitement, incluant la conversion en niveaux de gris, l'égalisation de l'histogramme, et la normalisation. ⚙️
+- **Image Preprocessing**: Each captured image undergoes a preprocessing process, including grayscale conversion, histogram equalization, and normalization. ⚙️
 
-- **Classification en Temps Réel** : Le modèle classifie en temps réel les images prétraitées, affichant le résultat de la classification sur la fenêtre de la webcam. Les informations, telles que la classe détectée et la probabilité, sont affichées à l'écran. 🖥️
+- **Real-Time Classification**: The model classifies the preprocessed images in real-time, displaying the classification result on the webcam window. Information such as the detected class and probability is shown on the screen. 🖥️
 
-- **Text_to_Speech** : Pour rendre les résultats de la classification accessibles de manière audible, nous avons intégré la bibliothèque pyttsx3 pour la synthèse vocale. 🔊
+- **Text-to-Speech**: To make the classification results accessible audibly, we integrated the pyttsx3 library for speech synthesis. 🔊
 
-- **Reconnaissance Vocale** : Simultanément, le système effectue une conversion de la parole en texte en utilisant la bibliothèque SpeechRecognition pour comprendre les commandes vocales de l'utilisateur. Une fois le message vocal interprété, le texte résultant est affiché de manière claire et lisible à l'écran. 🗣️➡️📜
+- **Voice Recognition**: Simultaneously, the system performs speech-to-text conversion using the SpeechRecognition library to understand user voice commands. Once the voice message is interpreted, the resulting text is clearly and legibly displayed on the screen. 🗣️➡️📜
