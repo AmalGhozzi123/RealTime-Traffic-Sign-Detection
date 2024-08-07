@@ -10,7 +10,14 @@ The project aims to develop a real-time traffic sign recognition system using a 
 
 ### Libraries
 - **OpenCV** : The project involves using OpenCV for real-time capture and processing of traffic sign images. 🎥
-- **SpeechRecognition and pyttsx3** : The SpeechRecognition library is used for voice recognition, allowing the application to understand user voice commands. The pyttsx3 library is used for text-to-speech synthesis, announcing the classification result to the user. 🗣️📢
+- **SpeechRecognition** : The SpeechRecognition library is used for voice recognition, allowing the application to understand user voice commands. 🗣️
+- **pyttsx3** : The pyttsx3 library is used for text-to-speech synthesis, announcing the classification result to the user. 📢
+- **TensorFlow** : TensorFlow is used to train the CNN model for traffic sign classification. 🧠
+- **Keras**  : Keras is used as the high-level API for building and training the CNN model. ⚙️
+- **NumPy**  : NumPy is used for numerical operations and array manipulation during image processing and model training. 🔢
+- **os**  : The os library is used for file and directory operations, such as loading and saving model files. 📁
+- **threading**  : The threading library is used for handling concurrent operations, like running voice recognition and image processing simultaneously. ⏳
+- **time**  : The time library is used for managing timing operations, like setting intervals for processing and waiting. ⏲️
 
 
 ## 🚀 How the Project Works 
@@ -42,6 +49,8 @@ also Make sure you have the following libraries installed. You can install them 
   `pip install SpeechRecognition`
 - **For pyttsx3 :**
   `pip install pyttsx3`
+- **For numpy :**
+  `pip install numpy`
   
 ## 🧩 Additional Information
 Feel free to modify and extend this project to suit your needs. If you encounter any issues or need further assistance, you can contact me at amalghozzi@outlook.com.
