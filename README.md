@@ -53,4 +53,4 @@ also Make sure you have the following libraries installed. You can install them 
   `pip install numpy`
   
 ## 🧩 Additional Information
-Feel free to modify and extend this project to suit your needs. If you encounter any issues or need further assistance, you can contact me at amalghozzi@outlook.com.
+Feel free to modify and extend this project to suit your needs. If you encounter any issues or need further assistance, you can contact me at`amalghozzi@outlook.com`.
