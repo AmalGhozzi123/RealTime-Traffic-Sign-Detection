@@ -35,7 +35,7 @@ The project aims to develop a real-time traffic sign recognition system using a 
 
 ## 🚀 How to Deploy the Project
 1. **Clone the Repository**
-   `git clone https://github.com/AmalGhozzi123/Traffic-Sign-Recognition.git`
+   `git clone https://github.com/AmalGhozzi123/RealTime-Traffic-Sign-Detection.git`
 2. **Install Dependencies**
 - Make sure you have Python 3.6 or higher installed on your system.
 also Make sure you have the following libraries installed. You can install them using pip:
